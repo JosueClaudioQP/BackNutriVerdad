@@ -17,7 +17,7 @@ public class CorsConfig {
         // Agrega aquí tanto el localhost como tu dominio de Vercel
         config.setAllowedOrigins(List.of(
                 "http://localhost:5173",
-                "https://nutri-verdad-8yis.vercel.app"  // <-- tu dominio de Vercel
+                "https://nutriverdad.vercel.app/"  // <-- tu dominio de Vercel
         ));
 
         config.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS", "PATCH"));
